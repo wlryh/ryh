@@ -1,0 +1,35 @@
+.panel {
+    background-color:#EEEEEE;
+    margin: 20px;
+    padding:20px;
+    border:1px solid #999;
+    width:96%;
+    height: 700px;
+}
+
+.left{
+    width:200px;
+    float:left;
+    background-color:#fff;
+    border:1px solid #999;
+}
+
+.logo{
+     margin:20px;
+     float:left;
+     width:80px;
+     height:80px;
+}
+
+.right{
+    width:120px;
+    float:right;
+    border:1px solid #999;
+}
+
+.content{
+    margin-left:220px;
+    margin-right:140px;
+    border:1px solid #999;
+
+}
