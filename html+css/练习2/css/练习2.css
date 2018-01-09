@@ -15,7 +15,7 @@
 }
 
 .logo{
-     margin:10px;
+     margin:20px;
      float:left;
      width:80px;
      height:80px;
@@ -24,9 +24,12 @@
 .right{
     width:120px;
     float:right;
+    border:1px solid #999;
 }
 
 .content{
-    float:left;
+    margin-left:220px;
+    margin-right:140px;
+    border:1px solid #999;
 
 }
