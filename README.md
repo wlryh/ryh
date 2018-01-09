@@ -1,4 +1,3 @@
 # ryh
 1、水平垂直居中
-方法一：
-这种方法用来实现单行垂直居中是相当的简单的，你只要保证元素内容是单行，并且其高度是固定不变的，你只要将其“line-height”设置成和“height”值一样就Ok了。不过这种方法局限性太大，只有单行文本的元素才适用，所以在多行元素中是不能使用这种方法的。
+链接：https://www.w3cplus.com/css/vertically-center-content-with-css
