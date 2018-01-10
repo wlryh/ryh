@@ -1,18 +1,49 @@
 <html>
-    <head>
-        <meta charset="gbk">
-        <title>练习4</title>
-        <style>
-          .circle{
-              width: 400px;
-              height: 200px;
-              border:1px solid black;
-          }
-        </style>
-    </head>
-    <body>
-        <div class="circle">
 
+<head>
+    <meta charset="gbk">
+    <title>练习4</title>
+    <style>
+        .content {
+            position: absolute; 
+            width: 400px;
+            height: 200px;
+            top: 50%;/*元素的顶部边界离父元素的的位置是父元素高度的一半*/ 
+            left: 50%;
+            margin-top: -50px;/*设置元素顶边负边距，大小为元素高度的一半*/
+            margin-left: -200px;
+            border: 1px solid black;
+            background-color:#ccc;
+        }
+        .top {
+            background-color: red;
+            border-radius: 50px 50px 0 0;
+	        height: 50px;
+        }
+        .test {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	margin: 100px;
+	background-color: red;
+    border-radius: 50%;
+}
+    </style>
+</head>
+
+<body>
+        <div class="content">
+            <div class="top">
+
+            </div>
+            <div class=bottom>
+
+            </div>
+           
         </div>
-    </body>
+        <div class="test"></div>
+
+</body>
+
 </html>
