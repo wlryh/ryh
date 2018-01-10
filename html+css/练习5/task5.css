@@ -1,4 +1,6 @@
-
+body {
+    background-color: black;
+}
 ul {
     padding:auto,20px;
     text-align: center;
@@ -22,7 +24,8 @@ ul li a {
     float: left;
 }
 .panel {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     background-color: #DEDEDE;
 }
 .header {
@@ -85,7 +88,7 @@ table tfoot {
     width: 50%;
 }
 .btn{
-    width: 90%;
+    width: 500px;
     height: 40px;
     text-align: center;
     background-color:#4148CB;
