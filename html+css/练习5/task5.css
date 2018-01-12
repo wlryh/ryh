@@ -21,12 +21,13 @@ ul li a {
 
 .content{
     width:70%;
-    float: left;
+    display: inline-block;
 }
 .panel {
     width: 80%;
     margin: auto;
     background-color: #DEDEDE;
+    border: 1px solid red;
 }
 .header {
     height: 60px;
