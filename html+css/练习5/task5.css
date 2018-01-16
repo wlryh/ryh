@@ -81,15 +81,15 @@ table tfoot {
 .left{
     float: left;
     text-align: right;
-    width: 50%;
+    width: 45%;
 }
 .right{
     float: left;
     text-align: left;
-    width: 50%;
+    width: 55%;
 }
 .btn{
-    width: 500px;
+    width: 427px;
     height: 40px;
     text-align: center;
     background-color:#4148CB;
@@ -105,4 +105,12 @@ table tfoot {
 .sidebar {
     width:30%;
     float: right;
+}
+.righthead {
+    height: 40px;
+    margin: 10px;
+    line-height: 40px;
+    font-size: 1.17em;
+    font-weight: 800;
+    border-left: 2px solid #CDCDCD;
 }
