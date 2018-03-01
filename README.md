@@ -35,3 +35,19 @@ undefined 和 null 的区别:值相等，但是类型不相等，
                          typeof null                  // object
                          null === undefined           // false
                          null == undefined            // true
+
+2、JavaScript 数据类型
+（1）在 JavaScript 中有 5 种不同的数据类型：
+    string
+    number
+    boolean
+    object
+    function
+（2）种对象类型：
+     Object
+     Date
+     Array
+（3）2 个不包含任何值的数据类型：
+     null
+     undefined
+3、Operator + 可用于将变量转换为数字，如果变量不能转换，它仍然会是一个数字，但值为 NaN (不是一个数字)
