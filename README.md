@@ -34,3 +34,18 @@ var v2 = obj["abc"];//使用中括号的方式
 ```
 var v3 = obj[key];//key是一个变量
 ```
+## 2018.07.19
+### npm install: "cb() never called"
+前端项目在编译部署时报cb() never called错误，在网上搜了一些答案，有说是node和npm的版本问题，有说是npm的缓存问题
+因为昨天编译还可以正常运行，所以应该不是版本出现的问题，然后想到是不是缓存问题，运维执行npm cache clean之后没有出现报错信息
+### npm 缓存
+npm cache 提供了三个命令，分别是npm cache add, npm cache clean, npm cache verify。
+
+npm cache add
+官方解释说这个命令主要是 npm 内部使用，但是也可以用来手动给一个指定的 package 添加缓存。(This command is primarily intended to be used internally by npm, but it can provide a way to add data to the local installation cache explicitly.)
+
+npm cache clean
+删除缓存目录下的所有数据。从 npm@5 开始，为了保证缓存数据的有效性和完整性，需要加上 --force 参数。
+
+npm cache verify
+验证缓存数据的有效性和完整性，清理垃圾数据。
