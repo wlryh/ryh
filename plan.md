@@ -5,7 +5,7 @@
 - [ ] network\git\safety：2018.10.31
 - [ ] performance\algorithm\datastruct：2018.11.30
 - [ ] 英语7000词汇量：2018.11.30
-### js
+### js（完成日期2018.08.31）
 
 - [ ] 内置类型
 - [ ] typeof
